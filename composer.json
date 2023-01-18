@@ -59,7 +59,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true
-        }
+        },
+        "bin-dir": "vender/bin"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
