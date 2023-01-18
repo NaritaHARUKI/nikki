@@ -21,7 +21,6 @@ function Home() {
     useEffect(()=>{
         axios.post('/api/home', {id: id,userId: userId})
         .then((res) => {
-            //console.log(res);
             setUserInfo(res.data[1]);
             const infoByDB = res.data[0];
             const infoByUser = res.data[1]

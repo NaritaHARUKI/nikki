@@ -44,7 +44,6 @@ export default function GetWeek() {
     let outcome = [];
 
     response.filter((a)=>{
-      console.log(a.userName.toLowerCase().includes(value));
       if(a.userName.toLowerCase().includes(value)){
         outcome.push(a);
       }else if(a.created_at.toLowerCase().includes(value)){
@@ -58,7 +57,6 @@ export default function GetWeek() {
   if(response){
     return (
       <div className='getWeekBody'>
-        {console.log(searchQuely)}
         <input type='text' id='search' placeholder='🔍検索 日付は(01-01の形式)' className='searchInput' onChange={(e)=>{onChange(e)}} />
         <div className='list'>
         {searchQuely.map((data) => {

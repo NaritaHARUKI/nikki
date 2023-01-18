@@ -16,7 +16,6 @@ export default function Detail() {
       if(infoBySession.name === undefined){
         location.href = '/checkin'
       }
-      //console.log(res.data[1]);
       setContent(res.data[0][0])
     }).catch(error => {
         console.log(error);

@@ -36,7 +36,6 @@ function Checkin(err) {
             password: groupData.password,
         }).then((res) => {
             setGroupData('');
-            console.log(res);
             if(res.status === 200){
                 location.href=`/home/${res.data.belongs_to}/user/${res.data.id}`;
             }

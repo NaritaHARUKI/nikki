@@ -134,7 +134,6 @@ const onClickAdd = async()=>{
 
     await axios.post('/api/addUser',userData)
     .then((res)=>{
-        console.log(res);
         setUserDate('');
         //location.href = 'http://127.0.0.1:8000/';
     }).catch(error => {
