@@ -53,7 +53,7 @@ return [
             'database' => ltrim($db["path"], '/'),
             'username' => $db['user'],
             'password' => $db['pass'],
-            'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
+            'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',
