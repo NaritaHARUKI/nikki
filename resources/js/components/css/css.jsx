@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../../css/index.scss"
+import "./index.scss"
 
 export default function Cssss() {
   return (
