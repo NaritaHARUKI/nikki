@@ -81,7 +81,7 @@
 
         @for $i from 1 through 2{
             &:nth-of-type(#{$i}){
-                animation-delay: -.32s / $i;
+                animation-delay: calc(-0.32s / $i);
             }
         }
     }
