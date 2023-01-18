@@ -1,4 +1,5 @@
 @use "./mixin" as *;
+
 .b {
   color: black;
   border: 1px solid black;
