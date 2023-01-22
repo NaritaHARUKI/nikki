@@ -918,6 +918,11 @@ login-form-field-err{
 /* 縦長 */
 
 @media screen and (orientation: portrait) {
+
+  body{
+    margin: 0 auto;
+  }
+
   .main{
     width: 80vw;
   }
@@ -1008,5 +1013,9 @@ login-form-field-err{
   .fillOutSubmit{
     width: 30vw;
     left: 35vw;
+  }
+
+  .createChild:before{
+    border: none;
   }
 }
