@@ -422,7 +422,7 @@ img.ProseMirror-separator {
   content: '';
   position: absolute;
   top: 3%;
-  left: 1.5%;
+  left: 1%;
   width: 17.5vw;
   height: 12.5vh;
   background-color: rgba(0 0 0/0);
