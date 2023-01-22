@@ -9,8 +9,6 @@ function Checkin(err) {
 
     const [groupData,setGroupData] = useState();
     const [alert,setAlert] = useState();
-    const navigate = useNavigate();
-    console.log(err.err)
 
     const onChange = () => {
         let groupName = document.forms.login.name.value;
@@ -61,14 +59,14 @@ function Checkin(err) {
                 </div>
                 {err.err ? <p  style={{marginTop:'10px',padding:'5px',color:'#d65050',borderRadius:'10px'}}>ユーザーが見つかりませんでした</p> : ""}
                 <form name="login" onChange={onChange}>
-                    <div className='login-form-field'>
+                    <div className= {err.err ? '' : 'login-form-field'}>
                         <input name='name' type='text' className='input' id='name' required/>
                         <label className='login-label' for="name">名前</label>
                         <br/><br/>
                         <input name='password' type='text' className='input' id='password' required/>
                         <label className='login-label' for="password">パスワード</label>
                         <br/>
-                        <button className='btn' onClick={()=>onClick()} style={{marginTop:'28px'}}>参加</button>
+                        <div className='btn' onClick={()=>onClick()} style={{marginTop:'28px'}}>参加</div>
                     </div>
                 </form>
             </div>  
