@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 $db = parse_url(env('DATABASE_URL'));
-echo ($db);
+var_dump($db);
 
 return [
 
