@@ -85,7 +85,8 @@ const onClick = async()=>{
     await axios.post('/api/create',groupData)
     .then((res) => {
         setGroupData('');
-        location.href = 'https://nilkki-waaaaaii.herokuapp.com/';
+        console.log(res);
+        // location.href = 'https://nilkki-waaaaaii.herokuapp.com/';
     }).catch(error => {
         console.log(error);
     });

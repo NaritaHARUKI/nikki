@@ -9,8 +9,6 @@ function Checkin(err) {
 
     const [groupData,setGroupData] = useState();
     const [alert,setAlert] = useState();
-    const navigate = useNavigate();
-    console.log(err.err)
 
     const onChange = () => {
         let groupName = document.forms.login.name.value;
