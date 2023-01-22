@@ -34,11 +34,13 @@ function Checkin(err) {
             password: groupData.password,
         }).then((res) => {
             setGroupData('');
-            if(res.status === 200){
-                location.href=`/home/${res.data.belongs_to}/user/${res.data.id}`;
-            }
+            console.log(res)
+            // if(res.status === 200){
+            //     location.href=`/home/${res.data.belongs_to}/user/${res.data.id}`;
+            // }
         }).catch(error => {
-            location.href = `/checkin/error`;
+            console.log(error)
+            //location.href = `/checkin/error`;
         });
     }
 
@@ -66,7 +68,7 @@ function Checkin(err) {
                         <input name='password' type='text' className='input' id='password' required/>
                         <label className='login-label' for="password">パスワード</label>
                         <br/>
-                        <button className='btn' onClick={()=>onClick()} style={{marginTop:'28px'}}>参加</button>
+                        <div className='btn' onClick={()=>onClick()} style={{marginTop:'28px'}}>参加</div>
                     </div>
                 </form>
             </div>  
