@@ -133,7 +133,7 @@ const onClickAdd = async()=>{
         return;
     }
 
-    console.log(userData.userPassword,userData.userPassword.length)
+    console.log(userData.userPassword);
 
     await axios.post('/api/addUser',userData)
     .then((res)=>{
