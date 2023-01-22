@@ -68,10 +68,10 @@ const onClick = async()=>{
         setAlert('パスワードが空です');
         return;
     }
-    if(groupData.password.length < 3 ){
-        setAlert('パスワードは3文字以上にしてください');
-        return;
-    }
+    // if(groupData.password.length < 3 ){
+    //     setAlert('パスワードは3文字以上にしてください');
+    //     return;
+    // }
     if(groupData.confirmPassword === ''){
         setAlert('確認が空です');
         return;
@@ -81,15 +81,16 @@ const onClick = async()=>{
         setAlert('パスワードが一致しません');
         return;
     }
+
+    console.log(groupData.password.length);
     
-    await axios.post('/api/create',groupData)
-    .then((res) => {
-        setGroupData('');
-        console.log(res);
-        // location.href = 'https://nilkki-waaaaaii.herokuapp.com/';
-    }).catch(error => {
-        console.log(error);
-    });
+    // await axios.post('/api/create',groupData)
+    // .then((res) => {
+    //     setGroupData('');
+    //     location.href = 'https://nilkki-waaaaaii.herokuapp.com/';
+    // }).catch(error => {
+    //     console.log(error);
+    // });
 
 }
 
@@ -133,16 +134,15 @@ const onClickAdd = async()=>{
         return;
     }
 
-    console.log(userData.userPassword.length);
+    console.log(userData.userPassword.length,userData.userPassword.length);
 
-    await axios.post('/api/addUser',userData)
-    .then((res)=>{
-        setUserDate('');
-        console.log(res);
-        //location.href = 'http://127.0.0.1:8000/';
-    }).catch(error => {
-        console.log(error);
-    });
+    // await axios.post('/api/addUser',userData)
+    // .then((res)=>{
+    //     setUserDate('');
+    //     console.log(res);
+    // }).catch(error => {
+    //     console.log(error);
+    // });
 }
 
     return (
