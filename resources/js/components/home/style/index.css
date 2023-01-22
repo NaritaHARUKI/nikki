@@ -488,7 +488,7 @@ img.ProseMirror-separator {
   font-weight: bold;
   background: transparent;
   margin-top: 13px;
-  padding: 5px 15px;
+  padding: 5px 13px;
   border: 3px solid #333;
   border-radius: 6px;
   position: relative;
@@ -651,6 +651,10 @@ img.ProseMirror-separator {
 }
 
 .login-form-field{
+  margin-top: 40px;
+}
+
+login-form-field-err{
   margin-top: 40px;
 }
 
@@ -873,4 +877,136 @@ img.ProseMirror-separator {
   color: #d6d6d6;
   transform: scale(1.2);
   transition: .2s;
+}
+
+.margin10{
+  margin-top: -14px;
+}
+
+
+/* メディアクエリ */
+/* タブレット */
+
+@media screen and (max-width: 1024px){
+
+  .main{
+    width: 45vw;
+  }
+
+  .mainExplanation p{
+    font-size: smaller;
+  }
+
+  .label{
+    left: 15%;
+  }
+
+  .checkin{
+    width: 50vw;
+    height: 60vh
+  }
+
+  .login-form-field{
+    margin-top: 100px;
+  }
+
+  .login-form-field-err{
+    margin-top: 60px;
+  }
+}
+
+/* 縦長 */
+
+@media screen and (orientation: portrait) {
+  .main{
+    width: 80vw;
+  }
+
+  .mainExplanation{
+    margin-left: 10px;
+    width: 60vw;
+  }
+  
+  .mainExplanation::before{
+    width:58vw;
+  }
+
+  .blackContainer{
+    display:flex;
+    flex-flow: column;
+    justify-content:space-between;
+  }
+
+  .createChild{
+    width: 80vw;
+    height: 44vh;
+    left: 100%;
+  }
+
+  .create-form-field{
+    margin: 20px auto;
+  }
+
+  .add-form-field{
+    margin: 10px auto;
+    font-size: smaller;
+  }
+
+  .margin10{
+    margin-top: 10px;
+  }
+
+  .blackContainer::before{
+    top: 1vh;
+    height: 98vh;
+  }
+
+  .checkin{
+    top: 50%;
+    width: 80vw;
+    height: 70vh;
+  }
+
+  .searchInput{
+    width: 90vw;
+    left: 5vw;
+    margin: 15px auto;
+  }
+
+  .list{
+    width: 90vw;
+    height: 20vh;
+    top: 58vh;
+    left: 5vw;
+  }
+
+  .getweek-btn{
+    width: 90vw;
+  }
+
+  #target{
+    left: 0;
+    top: -50px;
+  }
+
+  .nikkiChild{
+    max-height: 45vh;
+    width: 90vw;
+    left: 5vw;
+  }
+
+  .fillOut{
+    top: 90vh;
+    left: 70vw;
+    width: 25vw;
+    height: 8vh;
+    line-height: 8vh;
+    border: #333 solid 2px;
+    border-radius: 10px;
+  }
+
+  .fillOutSubmit{
+    width: 30vw;
+    left: 35vw;
+  }
 }

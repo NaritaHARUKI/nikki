@@ -162,6 +162,8 @@ const onClickAdd = async()=>{
                 </div>
             </div>
 
+
+
             <div className='add'>
                 <div className='createChild createChildAdd'>
                     {alertAdd ? <p className='createAlert'>{alertAdd}</p> : ''}
@@ -182,7 +184,7 @@ const onClickAdd = async()=>{
                             <input name='addGroupPassword' type='text' className='input' id='addGroupPassword' required/>
                             <label className='label' for="addGroupPassword">パスワード</label>
                         </div>
-                        <div className='btn' onClick={onClickAdd} style={{marginTop:'-14px'}}>送信</div>
+                        <div className='btn margin10' onClick={onClickAdd}>送信</div>
                     </form>
                 </div>
             </div>
