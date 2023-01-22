@@ -496,6 +496,7 @@ img.ProseMirror-separator {
   transition: .3s;
 }
 
+
 .btn::before{
   content: "";
   width: 100%;
@@ -963,8 +964,7 @@ login-form-field-err{
   }
 
   .blackContainer::before{
-    top: 1vh;
-    height: 98vh;
+    border: none;
   }
 
   .checkin{
@@ -1016,7 +1016,23 @@ login-form-field-err{
     left: 35vw;
   }
 
-  .createChild:before{
-    border: none;
+  .btn{
+    width: 50px;
+    margin: 20px auto;
   }
+
+  .create-form-field {
+    position: relative;
+    top: 80px;
+  }
+  
+  .add-form-field{
+    position: relative;
+    top: 40px;
+  }
+
+  .btnMargin{
+    margin-top: 50px;
+  }
+
 }
