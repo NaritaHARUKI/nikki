@@ -1,7 +1,7 @@
 {
   "resources/js/app.css": {
     "file": "assets/app-51bed98a.css",
-    "src": "resources/js/app.css"
+    "src": "resources/css/app.css"
   },
   "resources/js/app.js": {
     "file": "assets/app-4c3a4f14.js",
