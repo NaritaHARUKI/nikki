@@ -109,10 +109,10 @@ const onClickAdd = async()=>{
         setAlertAdd('ユーザーパスワードが空です');
         return;
     }
-    if(userData.userPassword.length < 3 ){
-        setAlertAdd('パスワードは3文字以上にしてください');
-        return;
-    }
+    // if(userData.userPassword.length < 3 ){
+    //     setAlertAdd('パスワードは3文字以上にしてください');
+    //     return;
+    // }
     if(userData.userConfirmPassword === ''){
         setAlertAdd('ユーザーパスワード確認が空です');
         return;
