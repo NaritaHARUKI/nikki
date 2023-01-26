@@ -1012,11 +1012,12 @@ login-form-field-err{
     display:flex;
     flex-flow: column;
     justify-content:space-between;
+    height: 110vh;
   }
 
   .createChild{
     width: 80vw;
-    height: 44vh;
+    height: 50vh;
     left: 100%;
   }
 
@@ -1072,7 +1073,6 @@ login-form-field-err{
 
   .nikkiChild{
     max-height: 30vh;
-    height: 48vh;
     width: 80vw;
     top: -3vh;
     left: 5vw;
@@ -1100,7 +1100,7 @@ login-form-field-err{
 
 
   .btn2{
-    margin-top: 35px;
+    margin-top: 20px;
   }
 
 }
