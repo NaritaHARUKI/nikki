@@ -988,20 +988,20 @@ login-form-field-err{
   }
 
   .mainContainer::before{
-    height: 70vh;
+    height: 90vh;
     width: 94.5vw;
   }
 
   .mainExplanation{
-    top: 67vh;
+    top: 77vh;
     margin-left: 10px;
     width: 60vw;
   }
 
   .mainExplanation p{
-    font-size: larger;
     margin-left: auto;
     margin-right: auto;
+    font-size: small;
   }
   
   .mainExplanation::before{
