@@ -1072,6 +1072,7 @@ login-form-field-err{
 
   .nikkiChild{
     max-height: 30vh;
+    height: 48vh;
     width: 80vw;
     top: -3vh;
     left: 5vw;
