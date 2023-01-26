@@ -983,9 +983,25 @@ login-form-field-err{
     width: 80vw;
   }
 
+  .mainContainer{
+    width: 99vw;
+  }
+
+  .mainContainer::before{
+    height: 70vh;
+    width: 94.5vw;
+  }
+
   .mainExplanation{
+    top: 67vh;
     margin-left: 10px;
     width: 60vw;
+  }
+
+  .mainExplanation p{
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .mainExplanation::before{
@@ -1082,7 +1098,7 @@ login-form-field-err{
 
 
   .btn2{
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
 }
