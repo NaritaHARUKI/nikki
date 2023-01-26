@@ -671,7 +671,7 @@ img.ProseMirror-separator {
 
 .createAlert{
   position: absolute;
-  top: 5%;
+  top: -3%;
   left: 10%;
   width: 80%;
   text-align: center;
