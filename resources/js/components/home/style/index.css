@@ -995,7 +995,7 @@ login-form-field-err{
   .mainExplanation{
     top: 72vh;
     margin-left: 10px;
-    width: 60vw;
+    width: 65vw;
   }
 
   .mainExplanation p{
@@ -1057,7 +1057,7 @@ login-form-field-err{
   .list{
     width: 90vw;
     height: 20vh;
-    top: 48vh;
+    top: 45vh;
     left: 5vw;
   }
 
@@ -1073,11 +1073,12 @@ login-form-field-err{
   .nikkiChild{
     max-height: 30vh;
     width: 80vw;
+    top: -3vh;
     left: 5vw;
   }
 
   .fillOut{
-    top: 82vh;
+    top: 78vh;
     left: 70vw;
     width: 25vw;
     height: 8vh;
