@@ -135,6 +135,7 @@ const onClickAdd = async()=>{
     await axios.post('/api/addUser',userData)
     .then((res)=>{
         setUserDate('');
+        location.href = 'https://nilkki-waaaaaii.herokuapp.com/';
     }).catch(error => {
         console.log(error);
     });
