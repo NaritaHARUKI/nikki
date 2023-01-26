@@ -494,6 +494,7 @@ img.ProseMirror-separator {
   position: relative;
   z-index: 1;
   transition: .3s;
+  width: 50px;
 }
 
 
@@ -969,6 +970,15 @@ login-form-field-err{
     padding: 0;
   }
 
+  input[type=text]{
+    font-size: 16px;
+    transform: scale(calc(12 / 16));
+  }
+
+  .label{
+    left: 25%;
+  }
+
   .main{
     width: 80vw;
   }
@@ -995,13 +1005,18 @@ login-form-field-err{
   }
 
   .create-form-field{
+    position: relative;
+    top: 30px;
     margin: 20px auto;
   }
 
   .add-form-field{
+    position: relative;
+    top: 20px;
     margin: 10px auto;
-    font-size: smaller;
+    font-size: 16px;
   }
+
 
   .margin10{
     margin-top: 10px;
@@ -1014,11 +1029,11 @@ login-form-field-err{
   .checkin{
     top: 50%;
     width: 70vw;
-    height: 70vh;
+    height: 50vh;
   }
 
   .searchInput{
-    width: 90vw;
+    width: 80vw;
     left: 5vw;
     margin: 15px auto;
   }
@@ -1041,7 +1056,7 @@ login-form-field-err{
 
   .nikkiChild{
     max-height: 45vh;
-    width: 90vw;
+    width: 80vw;
     left: 5vw;
   }
 
@@ -1065,15 +1080,6 @@ login-form-field-err{
     margin: 20px auto;
   }
 
-  .create-form-field {
-    position: relative;
-    top: 80px;
-  }
-  
-  .add-form-field{
-    position: relative;
-    top: 40px;
-  }
 
   .btn2{
     margin-top: 100px;
