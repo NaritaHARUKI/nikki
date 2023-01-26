@@ -412,7 +412,7 @@ img.ProseMirror-separator {
 .mainExplanation p{
   position: absolute;
   width: 90%;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit-transform: translateY(-50%) translateX(-50%);
@@ -1057,7 +1057,7 @@ login-form-field-err{
   .list{
     width: 90vw;
     height: 20vh;
-    top: 58vh;
+    top: 48vh;
     left: 5vw;
   }
 
@@ -1071,13 +1071,13 @@ login-form-field-err{
   }
 
   .nikkiChild{
-    max-height: 45vh;
+    max-height: 30vh;
     width: 80vw;
     left: 5vw;
   }
 
   .fillOut{
-    top: 90vh;
+    top: 82vh;
     left: 70vw;
     width: 25vw;
     height: 8vh;
